@@ -58,7 +58,7 @@ ram.runtime = "50M"
     main.allowed = "visitors"
     main.auth_header = true
     admin.url = "/admin"
-    admin.allowed = "admins"
+   # admin.allowed = "admins"
     admin.show_tile = false
 
     [resources.apt]
