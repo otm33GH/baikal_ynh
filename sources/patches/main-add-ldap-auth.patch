@@ -1,5 +1,3 @@
-diff --git a/Core/Frameworks/Baikal/Core/Server.php b/Core/Frameworks/Baikal/Core/Server.php
-index e96fe39..b90b49e 100644
 --- a/Core/Frameworks/Baikal/Core/Server.php
 +++ b/Core/Frameworks/Baikal/Core/Server.php
 @@ -132,8 +132,8 @@
@@ -13,8 +11,7 @@ index e96fe39..b90b49e 100644
          } else {
              $authBackend = new \Sabre\DAV\Auth\Backend\PDO($this->pdo);
              $authBackend->setRealm($this->authRealm);
-diff --git a/Core/Frameworks/Baikal/Model/Config/Standard.php b/Core/Frameworks/Baikal/Model/Config/Standard.php
-index 1ef5a51..32ec217 100644
+
 --- a/Core/Frameworks/Baikal/Model/Config/Standard.php
 +++ b/Core/Frameworks/Baikal/Model/Config/Standard.php
 @@ -37,6 +37,26 @@
