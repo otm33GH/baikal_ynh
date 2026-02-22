@@ -21,7 +21,7 @@ code = "https://github.com/sabre-io/Baikal"
 
 [integration]
 yunohost = ">= 12.1.38"
-helpers_version = ["2.0", "2.1"]
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
 
