@@ -2,7 +2,7 @@ diff --git a/Core/Frameworks/Baikal/Core/Server.php b/Core/Frameworks/Baikal/Cor
 index e96fe39..b90b49e 100644
 --- a/Core/Frameworks/Baikal/Core/Server.php
 +++ b/Core/Frameworks/Baikal/Core/Server.php
-@@ -133,8 +133,8 @@
+@@ -132,8 +132,8 @@
  
          if ($this->authType === 'Basic') {
              $authBackend = new \Baikal\Core\PDOBasicAuth($this->pdo, $this->authRealm);
