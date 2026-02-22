@@ -1,5 +1,5 @@
---- a/Core/Frameworks/Baikal/Core/Server.php
-+++ b/Core/Frameworks/Baikal/Core/Server.php
+--- a/Core/Frameworks/Baikal/Core/Server.php 2025-11-30 15:53:28.000000000 +0100
++++ b/Core/Frameworks/Baikal/Core/Server.php 2026-02-22 17:52:42.897058598 +0100
 @@ -132,8 +132,8 @@
  
          if ($this->authType === 'Basic') {
@@ -12,8 +12,8 @@
              $authBackend = new \Sabre\DAV\Auth\Backend\PDO($this->pdo);
              $authBackend->setRealm($this->authRealm);
 
---- a/Core/Frameworks/Baikal/Model/Config/Standard.php
-+++ b/Core/Frameworks/Baikal/Model/Config/Standard.php
+--- a/Core/Frameworks/Baikal/Model/Config/Standard.php 2025-11-30 15:53:28.000000000 +0100
++++ b/Core/Frameworks/Baikal/Model/Config/Standard.php 2026-02-22 17:52:42.897058598 +0100
 @@ -37,6 +37,26 @@
          "card_enabled"          => true,
          "cal_enabled"           => true,
