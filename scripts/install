@@ -48,8 +48,8 @@ ynh_config_add_fail2ban --logpath="/var/log/nginx/${domain}-error.log" --failreg
 ynh_config_add --template="AbstractExternalAuth.php" --destination="$install_dir/Core/Frameworks/Baikal/Core/AbstractExternalAuth.php"
 ynh_config_add --template="LDAPUserBindAuth.php" --destination="$install_dir/Core/Frameworks/Baikal/Core/LDAPUserBindAuth.php"
 
-chmod -R 640 "$install_dir/Core/Frameworks/Baikal/Core/"
-chown -R $app:www-data "$install_dir/Core/Frameworks/Baikal/Core/"
+chmod -R 640 "$install_dir/Core/Frameworks/Baikal/Core/*"
+chown -R $app:www-data "$install_dir/Core/Frameworks/Baikal/Core/*"
 ynh_exec_as_app mkdir "$install_dir/bin"
 cp $YNH_APP_BASEDIR/conf/upgrade.sh "$install_dir/bin/"
 chmod -R 750 "$install_dir/bin"
