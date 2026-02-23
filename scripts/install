@@ -50,7 +50,7 @@ ynh_config_add --template="LDAPUserBindAuth.php" --destination="$install_dir/Cor
 chmod -R 640 "$install_dir/Core/Frameworks/Baikal/Core"
 chown -R $app:www-data "$install_dir/Core/Frameworks/Baikal/Core"
 ynh_exec_as_app mkdir "$install_dir/bin"
-ynh_exec_as_app cp $YNH_APP_BASEDIR/conf/upgrade.sh "$install_dir/bin/"
+cp $YNH_APP_BASEDIR/conf/upgrade.sh "$install_dir/bin/"
 chmod -R 750 "$install_dir/bin"
 chown -R $app:www-data "$install_dir/bin"
 
